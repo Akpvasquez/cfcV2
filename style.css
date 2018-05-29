@@ -1,0 +1,48 @@
+body{
+  margin: 0px;
+  height: 100%;
+  background: radial-gradient(circle, #000066,#000019);
+  font-family: 'Montserrat', sans-serif;
+  font-variant: small-caps;
+  font-style:300;
+  font-size: 40px;
+  color: white;
+  text-align: center;
+}
+
+
+.header{
+  padding-top: 50px;
+}
+
+.click img, .button input {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 5px;
+}
+.click img {
+	height: 200px;
+}
+
+.click input {
+  padding: 25px 45px;
+  border-width: 10px;
+  text-align: center;
+  border-style: double;
+  border-color: white;
+  width: 200px;
+  margin: 0px auto;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+#cards img {
+	margin: 7px;
+	height: 225px;
+  border: 5px solid rgb(255, 255, 255);
+  border-radius: 5px;
+}
+.faceDown {
+	transform: rotate(180deg);
+}
